@@ -7,6 +7,7 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.util.Scanner;
 
 public class ConsultarMoeda {
 
@@ -33,5 +34,19 @@ public class ConsultarMoeda {
             throw new RuntimeException("Não foi possível realizar a operação.");
         }
 
+    }
+
+    public void imprimirConversao(Info informacoes, double valorConversao) {
+
+        System.out.printf("O valor em %s %.2f corresponde ao valor aproximado de: %.2f %s",informacoes.base_code(), valorConversao, informacoes.conversion_result(), informacoes.target_code());
+    }
+
+    public double receberValor() {
+
+        Scanner entrada = new Scanner(System.in);
+        System.out.println("Digite o valor que deseja converter:");
+        double valorConversao = entrada.nextDouble();
+
+        return valorConversao;
     }
 }

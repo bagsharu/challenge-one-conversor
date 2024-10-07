@@ -7,7 +7,7 @@ O Conversor de Moedas é um desafio proposto pelos instrutores do programa Oracl
 
 ## 🔨 Funcionalidades do projeto
 
-- `Conversão de Moedas`: O Programa fornce 6 opções de conversão entre Real (BRL, Dólar (USD) e Euro (EUR).
+- `Conversão de Moedas`: O Programa fornce 6 opções de conversão entre Real (BRL), Dólar (USD) e Euro (EUR).
 - `Conversão de Valores`: O usuário pode informar o valor que deseja converter.
 - `Menu interativo`: Fornece uma interface textual que dispõe as opções de conversão.
 ## ✔️ Técnicas e tecnologias utilizadas

@@ -17,3 +17,7 @@ O Conversor de Moedas é um desafio proposto pelos instrutores do programa Oracl
 - ``ExchangeRate API``
 - ``Postman``
 - ``InteliJ IDEA``
+
+## 📁 Acesso ao projeto
+
+Você pode acessar o código fonte e baixar o projeto clicanco [aqui](https://github.com/bagsharu/challenge-one-conversor/tree/master/src/bagsharu).

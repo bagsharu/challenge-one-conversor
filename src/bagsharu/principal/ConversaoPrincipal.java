@@ -14,11 +14,12 @@ public class ConversaoPrincipal {
 
         ConsultarMoeda consultarMoeda = new ConsultarMoeda();
 
-        Info valores = consultarMoeda.Consultar("8be507e8d1a6865db68cafaf","BRL","USD");
+        Info valores = consultarMoeda.Consultar("8be507e8d1a6865db68cafaf","USD","BRL",10.13);
 
         System.out.println(valores.base_code());
         System.out.println(valores.target_code());
         System.out.println(valores.conversion_rate());
+        System.out.println(valores.conversion_result());
 
 //        System.out.println(valores.BRL());
 //        System.out.println(valores.USD());

@@ -10,10 +10,10 @@ import java.net.http.HttpResponse;
 
 public class ConsultarMoeda {
 
-    public Info Consultar(String API_KEY,String valorConsulta, String valorConvertido) {
+    public Info Consultar(String API_KEY,String valorConsulta, String valorConvertido, double valorConversao) {
 
         // Variável para consultar a moeda desejada
-        var buscar = "https://v6.exchangerate-api.com/v6/" + API_KEY +"/pair/"+ valorConsulta + "/" + valorConvertido;
+        var buscar = "https://v6.exchangerate-api.com/v6/" + API_KEY +"/pair/"+ valorConsulta + "/" + valorConvertido + "/" + valorConversao;
 
         // Requisição para API
         HttpClient client = HttpClient.newHttpClient();

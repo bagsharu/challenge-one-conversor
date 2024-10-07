@@ -3,7 +3,7 @@
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
 
-O Conversor de Moedas é um desafio proposto pelos instrutores do programa Oracle Next Education (ONE), este projeto utiliza a API - [ExchangeRate](https://www.exchangerate-api.com) para converter de moedas de maneira simples!
+O Conversor de Moedas é um desafio proposto pelos instrutores do programa Oracle Next Education (ONE), este projeto utiliza uma API para converter moedas de maneira simples!
 
 ## 🔨 Funcionalidades do projeto
 

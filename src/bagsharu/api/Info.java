@@ -1,6 +1,6 @@
 package bagsharu.api;
 
-public record Info(String BRL,
-                   String USD,
-                   String EUR) {
+public record Info(double BRL,
+                   double USD,
+                   double EUR) {
 }

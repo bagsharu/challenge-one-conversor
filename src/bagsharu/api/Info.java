@@ -1,6 +1,6 @@
 package bagsharu.api;
 
-public record Info(double BRL,
-                   double USD,
-                   double EUR) {
+public record Info(String base_code,
+                   String target_code,
+                   double conversion_rate) {
 }
